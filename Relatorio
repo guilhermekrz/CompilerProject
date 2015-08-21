@@ -1,0 +1,32 @@
+{Guilherme Krzisch - 11100072-5 - guilherme.krzisch@acad.pucrs.br}
+
+Para compilar: "make" no diretório dos arquivos
+Para rodar: 
+---- ./run.x [nomeDoArquivo].pas
+---- ./[nomeDoArquivo]
+----------onde [nomeDoArquivo] = 
+-------------------------testeEscrita -> demonstra operacoes de escrita
+-------------------------testeVazio -> programa de teste vazio
+-------------------------while -> demonstra comando de repeticao (while)
+-------------------------teste_01_operArit -> demonstra operacoes aritmeticas simples
+-------------------------teste_02_leitura -> demonstra operacoes de leitura
+-------------------------teste_03_opRel_selecao -> demonstra comandos de selecao (if)
+-------------------------teste_04_repeticao -> demonstra comandos de repeticao (while)
+-------------------------teste_04b_repeticao -> demonstra comandos de repeticao (while)
+-------------------------teste_05_do_while -> demonstra comando de repeticao do-while
+-------------------------teste_06_if_Ternary -> demonstra comando de selecao if-ternario
+-------------------------teste_07_break -> demonstra comando break
+-------------------------teste_08_continue -> demonstra comando continue
+-------------------------teste_09_for -> demonstra comando de repeticao for
+-------------------------teste_10_for_break_continue -> demonstra comando de repeticao for utilizado em conjunto com comandos break e continue
+-------------------------teste_11_for_empty -> demonstra comando for utilizado sem parametros, i.e. for(;;) para fazer um loop infinito
+						
+Plataforma utililzada: Linux (Ubuntu 15.04) + Gedit
+Todos os itens da descrição foram implementados.
+1. Comando de repetição do-while -> Para evitar conflitos Shift-Reduce, o comando do-while implementado utiliza a seguinte sintaxe (note os parênteses ao redor do statement): "do (statement) while expression"
+2. Comando de repetição for
+3. Comando break
+4. Comando continue
+5. Expressão condicional ( “? :” )
+
+Portanto foram implementados dois conceitos de geração de código além dos três solicitados.
